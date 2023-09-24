@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap</title>
+  <!-- TODO 1: Add the Bootstrap link here. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Fuggles&family=Libre+Baskerville:ital@1&family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon (2).ico" type="image/x-icon">
+  <style>
+    /* TODO 4: Use flexbox to center the card in the vertical and horizontal center. */
+    .flex-container{
+      display: flex;
+      height: 150vh;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+    }
+    #zoom{
+      background-color: rgba(135, 34, 194, 0.192);
+      font-weight: bolder;
+      color: antiquewhite;
+    }
+    p{
+      font-family: 'Pacifico', cursive;
+      font-size: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div id="zoom" class="card" style="width: 18rem;">
+      <img src="./WhatsApp Image 2023-09-24 at 14.18.54.jpg" class="card-img-top" alt="sun flower">
+      <div class="card-body">
+        <h5 class="card-title">Pretty Yobella</h5>
+        <p class="card-text">Just a regular day of looking absolutely beautiful</p>
+        <a href="./heart.html" class="btn btn-primary">Dont click me unless you are ready</a>
+      </div>
+    </div>
+    <!-- TODO 2: Add the Bootstrap Prebuilt Card here -->
+    <!-- TODO 3: Change the image src to display the flower.jpg image. -->
+  </div>
+</body>
+
+</html>
